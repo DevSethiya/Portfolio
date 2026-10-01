@@ -117,3 +117,8 @@ nav .lg{font-size:20px!important}
 .contact h2{font-size:34px!important}
 .chip{font-size:10px;padding:5px 9px}
 }
+/* project buttons */
+.acts{display:flex;flex-wrap:wrap;gap:12px}
+.btn.solid{background:var(--red)}
+.btn.solid:hover{background:var(--red2)}
+@media(max-width:480px){.acts{flex-direction:column}.acts .btn{width:100%}}
